@@ -13,7 +13,7 @@
         1. Explain the dataset with ease
         2. Why this dataset?
         3. Where it comes from? -> https://www.kaggle.com/datasets/sergionefedov/critical-minerals-and-rare-earths-20152026
-    >
+    -->
 3. [objetives](#)
 4. [Architecture](#)
 5. [Data Undestanding](#)
