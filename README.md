@@ -12,12 +12,11 @@
 
     <!-- 
     Variables that could answer each question:
-    1. hhi, top_country_share_pct, production_share_pct, country, mineral, year TODO: 
-        TODO: fOR THIS ONE, I should also look for the geographical coordinates of each country
+    1. hhi, top_country_share_pct, production_share_pct, country, mineral, year
     
     2.production_share_pct vs refined_share_pct 
     
-    3. reserves_tonnes, mine_production_tonnes, years_of_reserves
+    3. reserves_tonnes, mine_production_tonnes, years_of_reserves YearsOfReserves=Production/Reserves​
     
     4.demand_growth_pct price_usd_per_tonne, year, mineral, end_use
 
@@ -66,31 +65,43 @@ dataset for analysis, modeling, and education — not as a factual record of any
 
 ## Objectives
 
-Analyze the evolution of global critical-mineral supply chains between 2015 and 2026 and identify the factors associated with supply disruptions, with the goal of predicting whether a disruption will occur in the following year.
+Analyze the evolution of global critical-mineral supply chains between 2015 and 2026, identify the factors associated with supply disruptions, and develop a model to predict whether a disruption will occur in the following year.
 
 In order to answer this question, The next points will be reviwed:
 1. **Supply Concentration**
-    * Which minerals have the most geographically concentrated production? <!-- Gotta look for the Coordinates of each contry and the scatter to see some groups-->
+    * Which minerals have the most geographically concentrated production?
+    * How has production concentration changed between 2015 and 2026?
+    * Are highly concentrated minerals associated with higher supply-risk scores?<!-- Gotta look for the Coordinates of each contry and the scatter to see some groups-->
 
 2. **Mining vs Refining**
     * Are some minerals relatively diversified in mining but highly concentrated in refining?
     * Which minerals have the greatest gap between mining and refining concentration?
+    * How does refining concentration change over time?
 
 3. **Reserves**
     * Which minerals have the greatest estimated years of remaining supply?
-    * Are production increases reducing the apparent years of reserves? <!-- For this one, I should investigate a bit i think-->
-    * Which minerals have high production but relatively low years of reserves?
+    * How has the estimated years of reserves evolved over time?
+    * Which minerals combine high production with relatively low years of reserves?
 
 4. **Price and Demand**
-    * Does Demand growth correspond to increasing mineral prices?
+    * Does annual demand growth correspond to changes in mineral prices? 
+    * Which minerals show the strongest relationship between demand growth and price?
+    * Are periods of unusually high price associated with supply disruptions?
 
-5. **Export Controls and Suppy risk**
+5. **Export Controls**
     * How strongly are export controls associated with supply disruptions?
-    * What factors contribute most to a mineral's supply risk?
-    * Is geographic concentration the main driver of supply risk, or do export controls and refining concentration contribute substantially?
+    * Are disruptions more frequent during years in which export controls are active?
 
-6. **Risk Evolution**
-    * Which minerals became increasingly risky between 2015 and 2026?
+6. **Supply Risk**
+    * Which factors are most strongly associated with supply-risk scores?
+    * How do production concentration, refining concentration, and export controls relate to supply risk?
 
-7. **Prediction**
+7. **Risk Evolution**
+    * Which minerals experienced the largest changes in supply risk between 2015 and 2026?
+    * Which minerals consistently maintained high supply-risk levels?
+    * Did increases in production concentration coincide with increases in supply risk?
+
+8. **Prediction**
     * Can we predict whether a supply disruption will occur next year based on current supply-chain conditions?
+
+## Architecture
