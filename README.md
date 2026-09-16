@@ -24,6 +24,17 @@
     5.2 hhi, top_country_share_pct, refined_share_pct, export_control_active, production_share_pct
 
     6. risk_change = risk_2026 - risk_2015 or sum
+
+    =====================
+    Main Ones That I need to DO answer
+    1.Which critical minerals have the most geographically concentrated production?
+    2.Which minerals have the greatest discrepancy between mining and refining concentration?
+    3.How have supply-risk levels evolved from 2015 to 2026?
+    4.Are export controls, production concentration, and price changes associated with supply disruptions?
+    .Are rare-earth elements systematically more vulnerable to supply disruptions than other critical minerals?
+    6.Can current supply-chain conditions predict whether a disruption will occur in the following year?
+
+
     -->
 4. [Architecture](#)
 5. [Data Undestanding](#)
@@ -71,7 +82,7 @@ In order to answer this question, The next points will be reviwed:
 1. **Supply Concentration**
     * Which minerals have the most geographically concentrated production?
     * How has production concentration changed between 2015 and 2026?
-    * Are highly concentrated minerals associated with higher supply-risk scores?<!-- Gotta look for the Coordinates of each contry and the scatter to see some groups-->
+    * Are highly concentrated minerals associated with higher supply-risk scores?
 
 2. **Mining vs Refining**
     * Are some minerals relatively diversified in mining but highly concentrated in refining?
